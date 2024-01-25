@@ -18,7 +18,7 @@
 session_start();
 
 if ($_SERVER["REQUEST_METHOD"] == "POST" && isset($_POST['submit'])) {
-    $conn = new mysqli("localhost", "root", "root", "mystery_world");
+    $conn = new mysqli("localhost", "root", "root", "motmystere");
 
     if ($conn->connect_error) {
         die("Échec de la connexion : " . $conn->connect_error);

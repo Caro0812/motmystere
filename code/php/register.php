@@ -28,14 +28,14 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "root";
-	$dbname = "mystery_world";
+	$dbname = "motmystere";
 	
 	// Créer une connexion à la base de données
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Connexion à la base de données
-    $conn = new mysqli("localhost", "root", "root", "mystery_world");
+    $conn = new mysqli("localhost", "root", "root", "motmystere");
 
     // Vérifier la connexion
     if ($conn->connect_error) {
@@ -120,7 +120,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 				</div>
 			</article>
 		</section>
-
+ 
 		 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
