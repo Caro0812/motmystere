@@ -12,13 +12,12 @@
 $servername = "localhost";
 $username = "root";
 $password = "root";
-$dbname = "mystery_world";
+$dbname = "motmystere";
 
 // Créer une connexion à la base de données
 $conn = new mysqli($servername, $username, $password, $dbname);
 
     //Connexion et vérification
-    $conn = new mysqli("localhost", "root", "root", "mystery_world");
 
     if ($conn->connect_error) {
         die("Échec de la connexion : " . $conn->connect_error);

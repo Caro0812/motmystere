@@ -28,14 +28,14 @@
 	$servername = "localhost";
 	$username = "root";
 	$password = "root";
-	$dbname = "mystery_world";
+	$dbname = "motmystere";
 	
 	// Créer une connexion à la base de données
 	$conn = new mysqli($servername, $username, $password, $dbname);
 	
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Connexion à la base de données
-    $conn = new mysqli("localhost", "root", "root", "mystery_world");
+    $conn = new mysqli("localhost", "root", "root", "motmystere");
 
     // Vérifier la connexion
     if ($conn->connect_error) {
